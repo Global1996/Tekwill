@@ -3,47 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fundamentals-HTML-Homework</title>
+    <title>Lesson9</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
-    <h1>📘 The Code Magazine</h1>
-    <h2>The Basic Language of the Web: HTML</h2>
-<img height="100" width="100" src="img/laura-jones.jpg" alt="laura-jones">
-<p>
-Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027
-</p>
-<img height="300" width="600" src="img/post-img.jpg" alt="post-img">
-        <p>
-          All modern websites and web applications are built using three <em>fundamental</em> technologies: HTML, CSS and JavaScript. These are the languages of the web.
-        </p>
-    <p>
-    In this post, let's focus on HTML. We will learn what HTML is all about, and why you too should learn it.
-    </p>
-<h3>What is HTML?</h3>
-HTML stands for <strong>H</strong>yper<strong>T</strong>ext <strong>M</strong>arkup <strong>L</strong>anguage. It's a markup language that web developers use to structure and describe the content of a webpage (not a programming language).
-<p>
-HTML consists of elements that describe different types of content: paragraphs, links, headings, images, video, etc. Web browsers understand HTML and render HTML code as websites.
-</p>
+    <section id="form-section">
+    <form action="">
+            <label for="username">Username</label><br>
+            <input type="text" placeholder="Write your name" name="username">
+                <br />
 
-<p>
-In HTML, each element is made up of 3 parts:
-</p>
-<ol>
-<li>The opening tag</li>
-<li>The closing tag</li>
-<li>The actual element</li>
-</ol>
-<h3>Why should you learn HTML?</h3>
-There are countless reasons for learning the fundamental language of the web. Here are 5 of them:
-<p>
-    <ul>
-        <li>To be able to use the fundamental web dev language</li>
-        <li>To hand-craft beautiful websites instead of relying on tools like Worpress or Wix</li>
-        <li>To build web applications</li>
-        <li>To impress friends</li>
-        <li>To have fun 😃</li>
-    </ul>
-</p>
+            <label for="email"> Email</label><br>
+            <input type="email" placeholder="Fill your email" name="email">
+                <br />
+
+            <label for="password">Password</label><br>
+            <input type="password" placeholder="Fill your password" name="password">
+                <br />
+            
+                <!-- <input type="radio" name="angajat" value="angajat"> Angajat<br>
+                <input type="radio" name="angajat" value="neangajat"> Neangajat<br>
+                <input type="radio" name="angajat"  value="pensionar"> Pensionar<br>
+                <br />
+                <br /> -->
+            <input type="submit"  class="submit-button" value="Sing In" /> 
+            
+        </form>
+
+    <label> Chose age: </label>
+    <select name="age">
+        <option value="18-25">18-25</option>
+        <option value="25-36">25-36</option>
+        <option value="36-40">36-40</option>
+        <option value="40-49">40-49</option>
+        <option value="49-152">49-152</option>
+    </section>
+
+
+
 </body>
 </html>
