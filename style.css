@@ -1,0 +1,73 @@
+
+
+input{
+    color: blue;
+}
+
+                    /* Selectori */
+        /* tag selectori */
+        body{
+            background-color: #c0c0c0;
+           
+        }
+
+        section{
+            background-color: #696969;
+            width: 200px;
+        }
+
+        /* class selector */
+        .submit-button{
+           background-color: rgb(72, 255, 0); 
+           height: 30px;
+
+        }
+
+        /* id selector */
+        #form-section{
+            border-radius: 8px;
+        }
+        
+        /* Combined Selectors */
+
+      input.submit-button{
+        color: white;
+      }
+
+      /* COLORS  rgb (red, green ,blue);  rgba(red, green, blue, alpha); hexadecimal #6caractere */
+      /* rgb(255, 255, 255) -  WHITE */
+      /* rgb(0, 0, 0) - BLACK */
+      /* rgba(255,255,255,1) - white with 100% opacity */
+      /* hexodecimal #ffffff - White */
+      /* hexadecimal #000000 - Black  */
+
+      
+      /* pseudo-elements ::before ::after */
+        
+            .submit-button::before{
+                content: "\2190" ;
+                
+            }
+            
+            .submit-button::after{
+                content: "\2192" ;
+                
+            }
+            
+    .submit-button :active{
+    
+        background-color: #696969;
+    }
+
+    .submit-button :focus{
+        background-color: aqua;
+    }
+
+     form:first-child{
+        margin-top: 12px;
+    
+     }
+
+     form:last-child{
+        margin-bottom: ;
+     }
